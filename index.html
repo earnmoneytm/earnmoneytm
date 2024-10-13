@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Earn $20 by Playing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+
+        .app-image {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #218838;
+        }
+
+        .how-it-works {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 10px;
+        }
+
+        .steps {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .steps li {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        /* Estilo del botón de retiro */
+        .withdraw-btn {
+            display: inline-block;
+            background-color: grey;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            cursor: not-allowed;
+        }
+
+        .withdraw-btn[disabled] {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #aaa;
+        }
+
+        .withdraw-info {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Earn $20 by Playing for 1 Hour!</h1>
+        <p>Download our app, play for just one hour, and claim $20 instantly.</p>
+        
+       
+        <!-- Botón de descarga con el enlace proporcionado -->
+        <a href="https://affiliate.justtrack.io/android/cashgiraffe.app/ff9a68e7-f6ea-4ddf-8bf1-e8c6335167bf?channel=intent" class="download-btn">Download Now</a>
+
+        <!-- Cómo funciona -->
+        <div class="how-it-works">
+            <h2>How It Works</h2>
+            <ul class="steps">
+                <li>1. Download the app by clicking the button above.</li>
+                <li>2. Play the game for at least 1 hour.</li>
+                <li>3. After 1 hour, come back to this page to claim your $20!</li>
+            </ul>
+        </div>
+
+        <!-- Botón de retiro bloqueado -->
+        <a href="#" class="withdraw-btn" disabled>Withdraw $20</a>
+
+        <!-- Mensaje indicando por qué el botón está bloqueado -->
+        <p class="withdraw-info">*You need to play for at least 1 hour to unlock the withdraw button.</p>
+
+        <div class="footer">
+            <p>Terms & Conditions apply. Ensure to follow all steps for payout.</p>
+        </div>
+    </div>
+
+</body>
+</html>
